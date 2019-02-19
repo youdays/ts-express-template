@@ -1,0 +1,21 @@
+---
+extends: tslint-config-airbnb
+rules:
+  # 軸合わせ
+  align:
+    - true
+    - statements
+  # ifとかを波括弧
+  curly: true
+  # 空業を許す
+  no-consecutive-blank-lines: true
+  # クォーテーションを統一
+  quotemark: true
+  # セミコロン必須
+  semicolon: true
+  ter-indent:
+    - true
+    - 2
+  max-line-length:
+    - true
+    - 100
